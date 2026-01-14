@@ -4,11 +4,12 @@
 
 ### Write about how the plan you wrote in the MG2 break-down activity connects to the code you wrote. Cite specific class names and method names in the code and GameObjects in your Unity Scene.
 
-In my diagram I specifically labeled which attributes (components) each gameobject would have as well their interactions with each other game object.
-- The penguin gameobject had a rigidbody2d and a collider2d which allowed for movement and colliding with the coin prefab
-- The coin prefab had a collider2d set to trigger which allowed for the penguin to collect it
-- The text gameobject is referenced in the player script to update when the player collects a coin which updates the score.
-- The ground also had a box collider with the tag ground which allowed the penguin to jump on top of it
+In my diagram, I specifically labeled which attributes (components) each game object would have, as well l their interactions with each other game object.
+- The penguin game object had a rigidbody2d and a collider2d, which allowed for movement and colliding with the coin prefab
+- The coin prefab had a collider2d set to trigger, which allowed for the penguin to collect it
+- The text game object is referenced in the player script to update when the player collects a coin, which updates the score.
+- The ground also had a box collider with the tag ground, which allowed the penguin to jump on top of it
+<img width="3576" height="1602" alt="MG2PenguinModel" src="https://github.com/user-attachments/assets/fbc8973e-08c1-4aba-8d34-490ac864de33" />
 
 ## Open-Source Assets
 If you added any other outside assets, list them here!
