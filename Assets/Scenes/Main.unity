@@ -284,10 +284,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 19724781}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -193.3, y: 187.6}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0.15422675, y: 0.86700004}
+  m_AnchorMax: {x: 0.38919333, y: 0.9747612}
+  m_AnchoredPosition: {x: -1.7999878, y: 0.6000061}
+  m_SizeDelta: {x: 3, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7537292
 MonoBehaviour:
@@ -434,7 +434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -521,10 +521,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 19724781}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -307.6, y: 187.6}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0.015613367, y: 0.86700004}
+  m_AnchorMax: {x: 0.25122675, y: 0.9747612}
+  m_AnchoredPosition: {x: -0.6000366, y: 0.6000061}
+  m_SizeDelta: {x: 2, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &245512435
 MonoBehaviour:
@@ -800,6 +800,7 @@ MonoBehaviour:
   coinPrefab: {fileID: 8086690631189327583, guid: 3620b4900dd7d484a8dcde8da267d3e8, type: 3}
   coinValue: 0
   coinTextObject: {fileID: 7537292}
+  spawnTimer: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
